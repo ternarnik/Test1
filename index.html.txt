@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goods Tracking</title>
+</head>
+<body>
+    <form id="goodsForm">
+        <label for="carrier">Name of the Carrier:</label>
+        <input type="text" id="carrier" required><br>
+
+        <label for="reference">Reference Number:</label>
+        <input type="text" id="reference" required><br>
+
+        <label for="goodsType">Type of Goods:</label>
+        <input type="text" id="goodsType" required><br>
+
+        <label for="loadingPoint">Loading Point:</label>
+        <input type="text" id="loadingPoint" required><br>
+
+        <label for="unloadingPoint">Unloading Point:</label>
+        <input type="text" id="unloadingPoint" required><br>
+
+        <label for="owner">Owner of Goods:</label>
+        <input type="text" id="owner" required><br>
+
+        <button type="button" onclick="generateLink()">Generate Link</button>
+    </form>
+
+    <script>
+        function generateLink() {
+            // Your code to generate a unique link goes here
+            // It should gather form data and create a link (e.g., /track/uniqueIdentifier)
+        }
+    </script>
+</body>
+</html>
